@@ -19,8 +19,9 @@ A simple and interactive **Quiz Website** built using **HTML, CSS, and JavaScrip
 - **JavaScript** – Quiz logic, user interactions, and scoring  
 
 ---
+🚀 Live Demo: (https://ramalalithya.github.io/Quiz/) 
+![Demo GIF](demo.gif.gif)
 
-## 🚀 How to Run the Project?  
+## 📸 Screenshots
+![App Screenshot](screenshot.png.png)
 
-1️⃣ **Download the project files** or clone the repository:  
-```bash

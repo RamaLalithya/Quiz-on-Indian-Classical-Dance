@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nrithya with Lalithya - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-screen" class="screen">
+        <h1>Welcome to Nrithya with Lalithya</h1>
+        <p>Are you ready to take the quiz?</p>
+        <button id="start-quiz">Yes, Start Quiz</button>
+    </div>
+    
+    <div id="quiz-screen" class="screen">
+        <h2 id="question-text"></h2>
+        <div id="options"></div>
+        <button id="next-question" disabled>Next</button>
+    </div>
+    
+    <div id="result-screen" class="screen">
+        <h1>Quiz Completed!</h1>
+        <p>Your Score: <span id="score"></span> / 10</p>
+        <button onclick="location.reload()">Retry</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

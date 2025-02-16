@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Welcome Screen */
+#welcome-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffefd5;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7b00;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #cc6600;
+}
+
+/* Quiz Screen */
+#quiz-screen {
+    display: none;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#question-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Options Styling */
+#options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two options per row */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.option-button {
+    background-color:darkslategray;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+.option-button:hover {
+    background-color: #ff9900;
+}
+
+.option-button.selected {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Next Button */
+#next-question {
+    background-color: #007BFF;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#next-question:hover {
+    background-color: #0056b3;
+}
+
+/* Result Screen */
+#result-screen {
+    display: none;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#score {
+    font-size: 2em;
+    color: green;
+    margin-top: 10px;
+}
